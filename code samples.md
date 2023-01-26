@@ -74,9 +74,8 @@ DC Current on I/O Pins  --> 40 mA
 so make sure that you can not drive anything more than **50 mA**
 it should come form outside power.
 ### **ESP32 Technical Specifications**
-```notion-like-tables
-table-id-ygVBOU
-```
+![image](https://user-images.githubusercontent.com/6575383/214832341-fc6ac6b4-3509-478a-b472-8b98158ef398.png)
+
 
 
 
@@ -383,26 +382,37 @@ long pulseSR04()
 
 
 now to add the motor controller:
-![[Pasted image 20230117143237.png]]
-![[Pasted image 20230118182004.png]]
-![[Pasted image 20230118182550.png]]
+
+![Pasted image 20230117143237](https://user-images.githubusercontent.com/6575383/214832512-d7de5243-84b5-495b-9e16-e317987eb502.png)
+
+
+![Pasted image 20230118182004](https://user-images.githubusercontent.com/6575383/214832571-f923a9bd-a986-48ea-af55-1ebc1dc5d458.png)
+
+
+![Pasted image 20230118182550](https://user-images.githubusercontent.com/6575383/214832631-74371b6f-233a-445c-8bc9-1696c3c7c288.png)
+
 
 Rx2 -> GPIO 16.
-also 
-![[Pasted image 20230118191121.png]]
+also use Adapter that is suplied with kit, but you can also get power from USB, you can solder it directly to board.
+
+![Pasted image 20230118191121](https://user-images.githubusercontent.com/6575383/214832724-6213d5ba-1ffd-406d-b24f-f1e7ae77b29e.png)
+
 also since GPIO is also contected to LED, keep a track of that
 1-run it as server 
 2- has it track distance and line or just move it around.
 
-get the line detoctor done
-![[Pasted image 20230120053640.png]]
+To get the line detoctor working: 
+![Pasted image 20230120053640](https://user-images.githubusercontent.com/6575383/214833143-068f216d-c7a4-4dc5-8e48-e212622106a9.png)
 
-![[Pasted image 20230120053705.png]]
+
+
+![Pasted image 20230120053705](https://user-images.githubusercontent.com/6575383/214833211-15ef7228-1409-4df3-9a0c-dd406db18f0d.png)
 
 TX2 -> GPIO17
 
-Next we do the IP interface.
+Next we do the IP interface. 
 
+Note, this is a simpler way to get WiFi Connected, the final program, Minirobot1_2.ino is what I used, but you can utlize the code here also.
 HelloServer.ino
 ```c
 #include <WiFi.h>
@@ -482,12 +492,15 @@ void loop(void) {
 }
 ```
 
-also create a holder for the IR :
-![[Pasted image 20230120142624.png]]
+For the IR Holder, there was couple of iterations till final result:
+![Pasted image 20230120142624](https://user-images.githubusercontent.com/6575383/214833693-1a5bc314-8475-488b-851b-fd784c5d56ae.png)
+
 fist test:
-![[Pasted image 20230120142654.png]]
+![Pasted image 20230120142654](https://user-images.githubusercontent.com/6575383/214833732-30708a49-30db-4976-a3c6-9f25e8e347d9.png)
+
 did a bit modifications on it:
-![[Pasted image 20230120170434.png]]
+![Pasted image 20230120170434](https://user-images.githubusercontent.com/6575383/214833774-31e6eea8-650b-4346-9085-1dd89ab0f93a.png)
+
 
 things needs to be don : [[code samples Pending items]]
 

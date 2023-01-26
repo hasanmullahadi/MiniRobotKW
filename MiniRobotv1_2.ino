@@ -1,7 +1,7 @@
 /*
  * MiniRobot
  * Developed by: Hasan I A A Mohammad
- * email @ eng.hasan.m@gmail.com
+ * email @ minirobotkw@gmail.com
  * 
  * 
  */

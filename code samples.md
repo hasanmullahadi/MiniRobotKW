@@ -25,6 +25,9 @@ to start with ESP32 Arduino ID:
 start with 
 
 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+```java
+https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+```
 to be added in 
 
 ![Pasted image 20230117102145](https://user-images.githubusercontent.com/6575383/214830866-2c606869-5a44-4ed9-8287-0e25ee4e2302.png)

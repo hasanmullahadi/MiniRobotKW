@@ -1,7 +1,7 @@
 /*
  * MiniRobot
  * Developed by: Hasan I A A Mohammad
- * email @ minirobotkw@gmail.com
+ * email @ eng.hasan.m@gmail.com
  * 
  * 
  */
@@ -20,8 +20,8 @@
 #define USE_INTRANET
 
 // replace this with your homes intranet connect parameters
-#define LOCAL_SSID "HUAWEI_H122_BE0F"
-#define LOCAL_PASS "LDG2AMADAQ5"
+#define LOCAL_SSID "YOURROUTERNAME"
+#define LOCAL_PASS "YOURROUTERPASSWORD"
 
 // once  you are read to go live these settings are what you client will connect to
 #define AP_SSID "MiniRobotV1_02"

@@ -410,6 +410,17 @@ To get the line detoctor working:
 
 TX2 -> GPIO17
 
+
+For the IR Holder, there was couple of iterations till final result:
+![Pasted image 20230120142624](https://user-images.githubusercontent.com/6575383/214833693-1a5bc314-8475-488b-851b-fd784c5d56ae.png)
+
+fist test:
+![Pasted image 20230120142654](https://user-images.githubusercontent.com/6575383/214833732-30708a49-30db-4976-a3c6-9f25e8e347d9.png)
+
+did a bit modifications on it:
+![Pasted image 20230120170434](https://user-images.githubusercontent.com/6575383/214833774-31e6eea8-650b-4346-9085-1dd89ab0f93a.png)
+
+
 Next we do the IP interface. 
 
 Note, this is a simpler way to get WiFi Connected, the final program, Minirobot1_2.ino is what I used, but you can utlize the code here also.
@@ -492,21 +503,10 @@ void loop(void) {
 }
 ```
 
-For the IR Holder, there was couple of iterations till final result:
-![Pasted image 20230120142624](https://user-images.githubusercontent.com/6575383/214833693-1a5bc314-8475-488b-851b-fd784c5d56ae.png)
-
-fist test:
-![Pasted image 20230120142654](https://user-images.githubusercontent.com/6575383/214833732-30708a49-30db-4976-a3c6-9f25e8e347d9.png)
-
-did a bit modifications on it:
-![Pasted image 20230120170434](https://user-images.githubusercontent.com/6575383/214833774-31e6eea8-650b-4346-9085-1dd89ab0f93a.png)
-
-
-things needs to be don : [[code samples Pending items]]
 
 
 
-working on timers interrupts [[ESP32 Timer & Multiple Timer & Changing Timer]] 
+
 
 final code sample for V1.02: 
 # MiniRobot1_2.ino

@@ -13,9 +13,9 @@ will use for now ESP32
 good place to look at:
 https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/#:~:text=Installing%20ESP32%20Add%2Don%20in%20Arduino%20IDE&text=Open%20the%20Boards%20Manager.,installed%20after%20a%20few%20seconds.
 
-![[PXL_20230116_162033566.jpg]]
+![PXL_20230116_162033566](https://user-images.githubusercontent.com/6575383/214830244-37ab15cc-deea-4ee6-8569-934711c5bcaf.jpg)
 
-![[PXL_20230116_162015247.jpg]]
+![PXL_20230116_162015247](https://user-images.githubusercontent.com/6575383/214830333-360589ff-1cb0-4763-82a9-390cd16423ce.jpg)
 
 what we need:
 start with Arduino IDE:
@@ -26,30 +26,42 @@ start with
 
 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
 to be added in 
-![[Pasted image 20230117102145.png]]
 
-![[Pasted image 20230117102251.png]]
-![[Pasted image 20230117102324.png]]
+![Pasted image 20230117102145](https://user-images.githubusercontent.com/6575383/214830866-2c606869-5a44-4ed9-8287-0e25ee4e2302.png)
+
+
+
+![Pasted image 20230117102251](https://user-images.githubusercontent.com/6575383/214830949-a3605136-650e-4589-97c2-f2503e356b04.png)
+
+
+![Pasted image 20230117102324](https://user-images.githubusercontent.com/6575383/214831020-b16a716a-4aec-4ce1-abaf-fddff249b31b.png)
 
 add the URL in the list below:
 then go to  Toosl -> Board: xxx -> Boards Manager:
-![[Pasted image 20230117102643.png]]
+
+![Pasted image 20230117102643](https://user-images.githubusercontent.com/6575383/214831154-476510f7-558f-45df-9512-a7064bf1ad79.png)
 
 search for ESP32 and install it:
-![[Pasted image 20230117102835.png]]
+
+![Pasted image 20230117102835](https://user-images.githubusercontent.com/6575383/214831196-44611892-3e8a-4d5d-9246-1ca67b0bab12.png)
 
 **==then select Board "xxx" --> ESP32 Arduino --> DOIT ESP32 DEVKIT V1:==**
-![[Pasted image 20230117123149.png]]
+
+![Pasted image 20230117123149](https://user-images.githubusercontent.com/6575383/214831244-4c3b8127-ebb9-4321-af5e-cc864ca108f0.png)
+
 Next will implement a sericea of mini projects, that will be eventually integrated together.
 
 # Get To Know Me
 ESP32 has a built in Wifi module and Bluetooth module.
 has the following pin configurations:
 
-![[Pasted image 20230117193532.png]]
+
+![Pasted image 20230117193532](https://user-images.githubusercontent.com/6575383/214830638-5b2869dc-7a3b-4b72-8d84-67a9c33ea278.png)
+
 
 if only use for now one side of, for example:
-![[Pasted image 20230117193619.png]]
+
+![Pasted image 20230117193619](https://user-images.githubusercontent.com/6575383/214830766-e91979a9-ef15-44d0-bf5f-205ffa8a1a11.png)
 
 we would have 17 --> GPIO, General Purpose Input Output,
 and 1 --> 3.3V DC output from the device, from USB power in.

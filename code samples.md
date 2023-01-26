@@ -2,8 +2,8 @@
 
 
 ```c
-#define LOCAL_SSID "HUAWEI_H122_BE0F"
-#define LOCAL_PASS "LDG2AMADAQ5"
+#define LOCAL_SSID "Your_Router_Name"
+#define LOCAL_PASS "Your_Router_Password"
 
 ```
 

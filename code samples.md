@@ -118,7 +118,7 @@ need to tested first.
 /*
  * MiniRobot
  * By: Hasan Ismail Ali
- * eng.hasan.m@gmail.com for any questions
+ * minirobotkw@gmail.com for any questions
  * 
  */
 
@@ -237,7 +237,7 @@ newer version and simpler:
 /*
  * MiniRobot
  * By: Hasan Ismail Ali
- * eng.hasan.m@gmail.com for any questions
+ * minirobotkw@gmail.com for any questions
  * 
  */
 
@@ -486,7 +486,7 @@ final code sample for V1.02:
 /*
  * MiniRobot
  * Developed by: Hasan I A A Mohammad
- * email @ eng.hasan.m@gmail.com
+ * email @ minirobotkw@gmail.com
  * 
  * 
  */

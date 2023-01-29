@@ -13,7 +13,7 @@ const char PAGE_MAIN[] PROGMEM = R"rawliteral(
 <!DOCTYPE html>
 <html lang="en" class="js-focus-visible">
 
-<title>Web Page Update Demo</title>
+<title>MinRobotKW V1.02</title>
 
   <style>
     table {

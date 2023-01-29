@@ -20,9 +20,9 @@
 #define USE_INTRANET
 
 // replace this with your homes intranet connect parameters
-#define LOCAL_SSID "YOURROUTERNAME"
-#define LOCAL_PASS "YOURROUTERPASSWORD"
 
+#define LOCAL_SSID "UserYourRouterSSID"
+#define LOCAL_PASS "UserYourRouterPass"
 // once  you are read to go live these settings are what you client will connect to
 #define AP_SSID "MiniRobotV1_02"
 #define AP_PASS "023456789"
@@ -72,7 +72,6 @@ WebServer server(80);
 //this part for the LCD, driver SSD1306 128x64 I2C
 
 #define RL1
-#include <SPI.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
